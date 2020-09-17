@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD687D95251301600097DF8E /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D94251301600097DF8E /* ExploreViewController.swift */; };
+		BD687D97251301750097DF8E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D96251301750097DF8E /* CameraViewController.swift */; };
+		BD687D992513018F0097DF8E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D982513018F0097DF8E /* NotificationsViewController.swift */; };
+		BD687D9B2513019F0097DF8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D9A2513019F0097DF8E /* ProfileViewController.swift */; };
 		BDED2E0625125D14007A2D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED2E0525125D14007A2D29 /* AppDelegate.swift */; };
 		BDED2E0825125D14007A2D29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED2E0725125D14007A2D29 /* SceneDelegate.swift */; };
 		BDED2E0A25125D14007A2D29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED2E0925125D14007A2D29 /* HomeViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD687D94251301600097DF8E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		BD687D96251301750097DF8E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BD687D982513018F0097DF8E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		BD687D9A2513019F0097DF8E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BDED2E0225125D14007A2D29 /* ios-instagram-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-instagram-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDED2E0525125D14007A2D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDED2E0725125D14007A2D29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				BDED2E0925125D14007A2D29 /* HomeViewController.swift */,
+				BD687D94251301600097DF8E /* ExploreViewController.swift */,
+				BD687D96251301750097DF8E /* CameraViewController.swift */,
+				BD687D982513018F0097DF8E /* NotificationsViewController.swift */,
+				BD687D9A2513019F0097DF8E /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD687D95251301600097DF8E /* ExploreViewController.swift in Sources */,
+				BD687D97251301750097DF8E /* CameraViewController.swift in Sources */,
 				BDED2E0A25125D14007A2D29 /* HomeViewController.swift in Sources */,
+				BD687D992513018F0097DF8E /* NotificationsViewController.swift in Sources */,
+				BD687D9B2513019F0097DF8E /* ProfileViewController.swift in Sources */,
 				BDED2E0625125D14007A2D29 /* AppDelegate.swift in Sources */,
 				BDED2E0825125D14007A2D29 /* SceneDelegate.swift in Sources */,
 			);
