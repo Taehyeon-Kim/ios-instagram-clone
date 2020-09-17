@@ -28,6 +28,9 @@
 		BDED2E0F25125D15007A2D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDED2E0E25125D15007A2D29 /* Assets.xcassets */; };
 		BDED2E1225125D15007A2D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDED2E1025125D15007A2D29 /* LaunchScreen.storyboard */; };
 		BDF0B5AB2513980C006BE03E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDF0B5AA2513980C006BE03E /* GoogleService-Info.plist */; };
+		BDF0B5B025139D81006BE03E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0B5AF25139D81006BE03E /* DatabaseManager.swift */; };
+		BDF0B5B325139E98006BE03E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0B5B225139E98006BE03E /* AuthManager.swift */; };
+		BDF0B5B625139F30006BE03E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0B5B525139F30006BE03E /* StorageManager.swift */; };
 		E0D8205DF10DAD98532B4A8E /* Pods_ios_instagram_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D57275A3A7BAB8433F6AC4D /* Pods_ios_instagram_clone.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		BDED2E1125125D15007A2D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDED2E1325125D15007A2D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF0B5AA2513980C006BE03E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDF0B5AF25139D81006BE03E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		BDF0B5B225139E98006BE03E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		BDF0B5B525139F30006BE03E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		EA5FA5A0326AFAE3C96DAE93 /* Pods-ios-instagram-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-instagram-clone.debug.xcconfig"; path = "Target Support Files/Pods-ios-instagram-clone/Pods-ios-instagram-clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +186,9 @@
 				BDF0B5AA2513980C006BE03E /* GoogleService-Info.plist */,
 				BDED2E0525125D14007A2D29 /* AppDelegate.swift */,
 				BDED2E0725125D14007A2D29 /* SceneDelegate.swift */,
+				BDF0B5AF25139D81006BE03E /* DatabaseManager.swift */,
+				BDF0B5B225139E98006BE03E /* AuthManager.swift */,
+				BDF0B5B525139F30006BE03E /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -324,14 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF0B5B325139E98006BE03E /* AuthManager.swift in Sources */,
 				BD687DA6251303C00097DF8E /* EditProfileViewController.swift in Sources */,
 				BD687D95251301600097DF8E /* ExploreViewController.swift in Sources */,
 				BD687DB22513047F0097DF8E /* PublishPostViewController.swift in Sources */,
 				BD687D97251301750097DF8E /* CameraViewController.swift in Sources */,
 				BDED2E0A25125D14007A2D29 /* HomeViewController.swift in Sources */,
 				BD687DA2251303570097DF8E /* RegistrationViewController.swift in Sources */,
+				BDF0B5B625139F30006BE03E /* StorageManager.swift in Sources */,
 				BD687DB02513045A0097DF8E /* PostEditorViewController.swift in Sources */,
 				BD687DA42513038C0097DF8E /* PostViewController.swift in Sources */,
+				BDF0B5B025139D81006BE03E /* DatabaseManager.swift in Sources */,
 				BD687D992513018F0097DF8E /* NotificationsViewController.swift in Sources */,
 				BD687DAE251304210097DF8E /* SearchResultViewController.swift in Sources */,
 				BD687DA0251303420097DF8E /* LoginViewController.swift in Sources */,
