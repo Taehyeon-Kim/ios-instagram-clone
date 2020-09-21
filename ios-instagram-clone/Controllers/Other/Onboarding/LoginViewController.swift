@@ -6,6 +6,7 @@
 //  Copyright © 2020 taehy.k. All rights reserved.
 //
 
+import SafariServices
 import UIKit
 
 class LoginViewController: UIViewController {
@@ -195,13 +196,38 @@ class LoginViewController: UIViewController {
         view.addSubview(createAccountButton)
     }
     
-    @objc private func didTapLoginButton() {}
+    @objc private func didTapLoginButton() {
+        passwordField.resignFirstResponder()
+        usernameEmailField.resignFirstResponder()
+        
+        guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty,
+              let password = passwordField.text, !password.isEmpty, password.count >= 8 else {
+            return
+        }
+        
+        // login Func
+    }
     
-    @objc private func didTapTermsButton() {}
+    @objc private func didTapTermsButton() {
+        guard let url = URL(string: "https://help.instagram.com/478745558852511?utm_campaign=Tactical-Social-Media&utm_medium=facebook&utm_source=tsomedia") else {
+            return
+        }
+        let vc = SFSafariViewController(url: url)
+        present(vc, animated: true)
+    }
     
-    @objc private func didTapPrivacyButton() {}
+    @objc private func didTapPrivacyButton() {
+        guard let url = URL(string: "https://help.instagram.com/519522125107875") else {
+            return
+        }
+        let vc = SFSafariViewController(url: url)
+        present(vc, animated: true)
+    }
     
-    @objc private func didTapCreateAccountButton() {}
+    @objc private func didTapCreateAccountButton() {
+        let vc = RegistrationViewController()
+        present(vc, animated: true)
+    }
 }
 
 extension LoginViewController: UITextFieldDelegate {
