@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD499EF325187768003B779A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD499EF225187768003B779A /* Extensions.swift */; };
 		BD687D95251301600097DF8E /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D94251301600097DF8E /* ExploreViewController.swift */; };
 		BD687D97251301750097DF8E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D96251301750097DF8E /* CameraViewController.swift */; };
 		BD687D992513018F0097DF8E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD687D982513018F0097DF8E /* NotificationsViewController.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		1D57275A3A7BAB8433F6AC4D /* Pods_ios_instagram_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_instagram_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B327C208B7B9FA0C5109DC6B /* Pods-ios-instagram-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-instagram-clone.release.xcconfig"; path = "Target Support Files/Pods-ios-instagram-clone/Pods-ios-instagram-clone.release.xcconfig"; sourceTree = "<group>"; };
+		BD499EF225187768003B779A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BD687D94251301600097DF8E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		BD687D96251301750097DF8E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		BD687D982513018F0097DF8E /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				BDF0B5AF25139D81006BE03E /* DatabaseManager.swift */,
 				BDF0B5B225139E98006BE03E /* AuthManager.swift */,
 				BDF0B5B525139F30006BE03E /* StorageManager.swift */,
+				BD499EF225187768003B779A /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				BDF0B5B025139D81006BE03E /* DatabaseManager.swift in Sources */,
 				BD687D992513018F0097DF8E /* NotificationsViewController.swift in Sources */,
 				BD687DAE251304210097DF8E /* SearchResultViewController.swift in Sources */,
+				BD499EF325187768003B779A /* Extensions.swift in Sources */,
 				BD687DA0251303420097DF8E /* LoginViewController.swift in Sources */,
 				BD687DAC2513040E0097DF8E /* SearchViewController.swift in Sources */,
 				BD687D9B2513019F0097DF8E /* ProfileViewController.swift in Sources */,
